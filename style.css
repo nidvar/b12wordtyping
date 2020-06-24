@@ -3,3 +3,23 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+h2,h3,p{
+    margin:0;
+}
+.my_container{
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#user_input{
+    height:30px;
+    width:300px;
+    margin:20px;
+}
+
+#the_word{
+    font-weight:bolder
+}
